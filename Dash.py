@@ -58,7 +58,7 @@ dept_df['Weekly_Sales'] = dept_df['Weekly_Sales'].round(1)
 
 
 app = dash.Dash(__name__ ,external_stylesheets = [dbc.themes.BOOTSTRAP])
-
+server = app.server
 # app.layout = html.Div([
 #     html.H1(children='Retail Sales Dashboard',
 #            style={'textAlign': 'center',
