@@ -1,3 +1,0 @@
-Dash==3.8
-pandas
-gunicorn
