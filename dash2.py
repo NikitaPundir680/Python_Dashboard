@@ -74,7 +74,7 @@ types = pd_2["Type"].unique()
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 app.layout = html.Div([
     dbc.Navbar(
         [
@@ -282,7 +282,7 @@ def update_cards(base):
     )
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server()
 
 
 
