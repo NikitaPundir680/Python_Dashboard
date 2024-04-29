@@ -1,4 +1,0 @@
-Dash==2.16.1
-pandas
-numpy
-gunicorn
