@@ -1,4 +1,4 @@
-Dash==3.8.0
+Dash==0.18.3
 pandas
 numpy
 plotly
