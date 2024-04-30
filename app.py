@@ -59,7 +59,7 @@ types = pd_2["Type"].unique()
 
 server=Flask(__name__)
 app = dash.Dash(__name__,server=server,external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server=app.server
 app.layout = html.Div([
     dbc.Navbar(
         [
